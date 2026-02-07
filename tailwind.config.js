@@ -8,18 +8,18 @@ module.exports = {
     extend: {
       colors: {
         // Premium luxury restaurant template - art deco inspired
-        "flor-primary": "#0a0e27",      // Deep luxury black
-        "flor-secondary": "#1a7a5e",    // Emerald green
-        "flor-accent": "#d4af37",       // Classic gold
-        "flor-accent-alt": "#e8b4a8",   // Soft rose
-        "flor-dark": "#050708",         // Pure luxury black
-        "flor-light": "#faf8f5",        // Ivory
-        "flor-gold": "#d4af37",         // Premium gold
-        "flor-cream": "#f5f1ed",        // Rich cream
-        "flor-charcoal": "#2d3142",     // Deep charcoal
-        "flor-warm": "#e8d4c8",         // Warm natural
-        "flor-gray": "#6b7280",         // Sophisticated gray
-        "flor-emerald": "#1a7a5e",      // Deep emerald
+        "flor-primary": "#0a0e27", // Deep luxury black
+        "flor-secondary": "#1a7a5e", // Emerald green
+        "flor-accent": "#d4af37", // Classic gold
+        "flor-accent-alt": "#e8b4a8", // Soft rose
+        "flor-dark": "#050708", // Pure luxury black
+        "flor-light": "#faf8f5", // Ivory
+        "flor-gold": "#d4af37", // Premium gold
+        "flor-cream": "#f5f1ed", // Rich cream
+        "flor-charcoal": "#2d3142", // Deep charcoal
+        "flor-warm": "#e8d4c8", // Warm natural
+        "flor-gray": "#6b7280", // Sophisticated gray
+        "flor-emerald": "#1a7a5e", // Deep emerald
       },
       fontFamily: {
         serif: ["Bodoni Moda", "Cormorant", "Georgia", "serif"],

@@ -10,21 +10,21 @@ Successfully transformed the Flor Porto restaurant website from an elegant, warm
 ### Old Design → New Design
 
 #### Color Palette
-| Element | Old | New | Purpose |
-|---------|-----|-----|---------|
-| Primary | #1a1a1a (Charcoal) | #1a3a52 (Deep Navy) | Authority & sophistication |
-| Secondary | #d4ccc2 (Warm Beige) | #20b8a1 (Fresh Teal) | Modern freshness |
-| Accent | #a08d7a (Muted Gold) | #ff5757 (Vibrant Coral) | Energy & call-to-action |
-| Accent Alt | N/A | #ffa500 (Warm Orange) | Secondary emphasis |
-| Background | #f5f3f0 (Cream) | #f7f5f1 (Soft Off-white) | Modern minimalism |
-| Dark | #1a1a1a | #0f1419 (Very Dark Navy) | Deep contrast |
+| Element    | Old                  | New                      | Purpose                    |
+| ---------- | -------------------- | ------------------------ | -------------------------- |
+| Primary    | #1a1a1a (Charcoal)   | #1a3a52 (Deep Navy)      | Authority & sophistication |
+| Secondary  | #d4ccc2 (Warm Beige) | #20b8a1 (Fresh Teal)     | Modern freshness           |
+| Accent     | #a08d7a (Muted Gold) | #ff5757 (Vibrant Coral)  | Energy & call-to-action    |
+| Accent Alt | N/A                  | #ffa500 (Warm Orange)    | Secondary emphasis         |
+| Background | #f5f3f0 (Cream)      | #f7f5f1 (Soft Off-white) | Modern minimalism          |
+| Dark       | #1a1a1a              | #0f1419 (Very Dark Navy) | Deep contrast              |
 
 #### Typography
-| Category | Old | New |
-|----------|-----|-----|
+| Category | Old                        | New                     |
+| -------- | -------------------------- | ----------------------- |
 | Headings | Playfair Display (400-700) | Merriweather (400, 700) |
-| Body | Lato (300-700) | Inter (300-700) |
-| Style | Elegant, light-weight | Modern, bold accents |
+| Body     | Lato (300-700)             | Inter (300-700)         |
+| Style    | Elegant, light-weight      | Modern, bold accents    |
 
 #### Key Style Updates
 - **Buttons**: Rounded corners (rounded-lg) instead of sharp edges (rounded-none)

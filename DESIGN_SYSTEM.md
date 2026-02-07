@@ -62,14 +62,14 @@
 
 ### Type Scale
 
-| Element | Size | Weight | Line Height | Color |
-|---------|------|--------|------------|-------|
-| h1 (Hero) | 5xl-8xl | bold (700) | 1.2 | flor-primary/white |
-| h2 (Section) | 4xl-6xl | bold (700) | 1.3 | flor-primary |
-| h3 | 2xl | bold (700) | 1.4 | flor-charcoal |
-| h4 | xl | bold (700) | 1.4 | flor-charcoal |
-| Body | base-lg | 300-400 | 1.6 | flor-charcoal |
-| Labels | xs-sm | bold (700) | 1.2 | flor-primary/accent |
+| Element      | Size    | Weight     | Line Height | Color               |
+| ------------ | ------- | ---------- | ----------- | ------------------- |
+| h1 (Hero)    | 5xl-8xl | bold (700) | 1.2         | flor-primary/white  |
+| h2 (Section) | 4xl-6xl | bold (700) | 1.3         | flor-primary        |
+| h3           | 2xl     | bold (700) | 1.4         | flor-charcoal       |
+| h4           | xl      | bold (700) | 1.4         | flor-charcoal       |
+| Body         | base-lg | 300-400    | 1.6         | flor-charcoal       |
+| Labels       | xs-sm   | bold (700) | 1.2         | flor-primary/accent |
 
 ---
 
