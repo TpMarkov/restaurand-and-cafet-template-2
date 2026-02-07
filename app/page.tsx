@@ -354,22 +354,18 @@ function HeroSection() {
 function FeaturesSection() {
   const features = [
     {
-      icon: "🍽️",
       title: "Curated Menu",
       description: "Seasonally inspired dishes crafted by award-winning chefs",
     },
     {
-      icon: "🥂",
       title: "Wine Selection",
       description: "Carefully selected vintages from around the world",
     },
     {
-      icon: "✨",
       title: "Atmosphere",
       description: "Luxury ambiance designed for memorable moments",
     },
     {
-      icon: "👨‍🍳",
       title: "Expertise",
       description: "20+ years of culinary excellence and refinement",
     },
@@ -403,7 +399,6 @@ function FeaturesSection() {
                 transitionDuration: "0.8s",
               }}
             >
-              <div className="text-5xl mb-6">{feature.icon}</div>
               <h3 className="text-xl font-serif font-bold text-flor-primary mb-4">
                 {feature.title}
               </h3>
