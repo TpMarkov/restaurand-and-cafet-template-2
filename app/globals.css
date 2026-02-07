@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Inter', sans-serif;
+    }
+
+    body {
+        @apply bg-flor-light text-flor-charcoal antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Merriweather', serif;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-block px-8 py-3 bg-flor-accent text-white font-bold tracking-wide rounded-lg transition-all duration-300 ease-out hover:bg-flor-accent-alt hover:shadow-lg hover:-translate-y-0.5;
+    }
+
+    .btn-secondary {
+        @apply inline-block px-8 py-3 border-2 border-flor-accent text-flor-accent font-bold tracking-wide rounded-lg transition-all duration-300 ease-out hover:bg-flor-accent hover:text-white;
+    }
+
+    .section-title {
+        @apply text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-flor-primary mb-4 opacity-0;
+    }
+
+    .section-subtitle {
+        @apply text-sm md:text-base text-flor-accent font-bold tracking-widest uppercase mb-8 opacity-0;
+    }
+
+    .section-container {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-flor-primary via-flor-secondary to-flor-accent;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .reveal-text {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .word-reveal {
+        display: inline-block;
+        transform: translateY(100%);
+    }
+    
+    .card-modern {
+        @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300;
+    }
+    
+    .accent-line {
+        @apply h-1 bg-gradient-to-r from-flor-accent to-flor-accent-alt;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-flor-light;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-flor-accent rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-flor-primary;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-padding-top: 80px;
+}
